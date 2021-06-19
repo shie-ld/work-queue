@@ -18,7 +18,7 @@
   <h3 align="center">Work-Queue</h3>
 
   <p align="center">
-   A solution of the well-known producer-consumer problem using principles of concurrency control and to distribute tasks between threads so they can be processed concurrently.
+   A solution of the well-known producer-consumer problem using principles of concurrency control and to distribute tasks between threads so they can be processed concurrently keeping critical section in mind.
 
     <br />
     <br />
@@ -93,7 +93,7 @@ See the [docs](./docs/docs.md).
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/shie-ld/threads/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/shie-ld/work-queue/issues) for a list of proposed features (and known issues).
 
 
 
@@ -122,7 +122,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 dixitrdreshofficial@gmail.com
 
-Project Link: [https://github.com/shie-ld/threads](https://github.com/shie-ld/threads)
+Project Link: [https://github.com/shie-ld/work-queue](https://github.com/shie-ld/work-queue)
 
 
 
