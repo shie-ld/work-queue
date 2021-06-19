@@ -18,7 +18,7 @@
   <h3 align="center">Work-Queue</h3>
 
   <p align="center">
-   A solution of the well-known producer-consumer problem using principles of concurrency control and to distribute tasks between work-queue so they can be processed concurrently keeping critical section in mind.
+   A solution of the well-known producer-consumer problem using principles of concurrency control and to distribute tasks between threads so they can be processed concurrently keeping critical section in mind.
     <br />
     <br />
     <a href="https://github.com/shie-ld/work-queue/issues">Report Bug</a>
@@ -47,9 +47,9 @@
 ## About The Project
 
 
-This project is all about building a multithreaded application to devise a means to distribute tasks between work-queue so they can be processed concurrently.
+This project is all about building a multithreaded application to devise a means to distribute tasks between threads so they can be processed concurrently.
 
-Queues are good devices for transferring work items from one thread to another. In this repository I’ll discuss the design of a work queue class implemented in C++ that can be used with [Thread](https://github.com/shie-ld/work-queue) class objects to easily build a multithreaded application.
+Queues are good devices for transferring work items from one thread to another. In this repository I’ll discuss the design of a work queue class implemented in C++ that can be used with [Threads](https://github.com/shie-ld/threads) class objects to easily build a multithreaded application.
 
 
 ### Built With
@@ -59,14 +59,14 @@ Queues are good devices for transferring work items from one thread to another. 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-1. Get the source code of [work-queue](https://github.com/shie-ld/work-queue), which is a java like implementation of posix work-queue encapsulated cleanly in a single C++ class i.e. clone both this repository as well as above repository in the same folder using
+1. Get the source code of [Threads](https://github.com/shie-ld/threads), which is a java like implementation of posix threads encapsulated cleanly in a single C++ class i.e. clone both this repository as well as above repository in the same folder using
 ```sh
-git clone https://github.com/shie-ld/work-queue.git
+git clone https://github.com/shie-ld/threads.git
 git clone https://github.com/shie-ld/work-queue.git
 ```
 
-2. `cd` to the `work-queue` directory.
-3. Type `make` to build the `work-queue` program.
+2. `cd` to the `threads` directory.
+3. Type `make` to build the `threads` program.
 4. `cd ..` to jump back to previous directory.
 5. `cd` to the `work-queue` directory.
 6. Type `make` to build the `work-queue` program.
