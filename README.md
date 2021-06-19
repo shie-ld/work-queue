@@ -18,7 +18,7 @@
   <h3 align="center">Work-Queue</h3>
 
   <p align="center">
-   A solution of the well-known producer-consumer problem using principles of concurrency control and to distribute tasks between threads so they can be processed concurrently keeping critical section in mind.
+   A solution of the well-known producer-consumer problem using principles of concurrency control and to distribute tasks between work-queue so they can be processed concurrently keeping critical section in mind.
     <br />
     <br />
     <a href="https://github.com/shie-ld/work-queue/issues">Report Bug</a>
@@ -47,9 +47,9 @@
 ## About The Project
 
 
-This project is all about building a multithreaded application to devise a means to distribute tasks between threads so they can be processed concurrently.
+This project is all about building a multithreaded application to devise a means to distribute tasks between work-queue so they can be processed concurrently.
 
-Queues are good devices for transferring work items from one thread to another. In this repository I’ll discuss the design of a work queue class implemented in C++ that can be used with [Thread](https://github.com/shie-ld/threads) class objects to easily build a multithreaded application.
+Queues are good devices for transferring work items from one thread to another. In this repository I’ll discuss the design of a work queue class implemented in C++ that can be used with [Thread](https://github.com/shie-ld/work-queue) class objects to easily build a multithreaded application.
 
 
 ### Built With
@@ -59,14 +59,14 @@ Queues are good devices for transferring work items from one thread to another. 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-1. Get the source code of [Threads](https://github.com/shie-ld/threads), which is a java like implementation of posix threads encapsulated cleanly in a single C++ class i.e. clone both this repository as well as above repository in the same folder using
+1. Get the source code of [work-queue](https://github.com/shie-ld/work-queue), which is a java like implementation of posix work-queue encapsulated cleanly in a single C++ class i.e. clone both this repository as well as above repository in the same folder using
 ```sh
-git clone https://github.com/shie-ld/threads.git
+git clone https://github.com/shie-ld/work-queue.git
 git clone https://github.com/shie-ld/work-queue.git
 ```
 
-2. `cd` to the `threads` directory.
-3. Type `make` to build the `threads` program.
+2. `cd` to the `work-queue` directory.
+3. Type `make` to build the `work-queue` program.
 4. `cd ..` to jump back to previous directory.
 5. `cd` to the `work-queue` directory.
 6. Type `make` to build the `work-queue` program.
@@ -127,16 +127,16 @@ Project Link: [https://github.com/shie-ld/work-queue](https://github.com/shie-ld
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/shie-ld/threads.svg?style=flat-square
-[contributors-url]: https://github.com/shie-ld/threads/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/shie-ld/threads.svg?style=flat-square
-[forks-url]: https://github.com/shie-ld/threads/network/members
-[stars-shield]: https://img.shields.io/github/stars/shie-ld/threads.svg?style=flat-square
-[stars-url]: https://github.com/shie-ld/threads/stargazers
-[issues-shield]: https://img.shields.io/github/issues/shie-ld/threads.svg?style=flat-square
-[issues-url]: https://github.com/shie-ld/threads/issues
-[license-shield]: https://img.shields.io/github/license/shie-ld/threads.svg?style=flat-square
-[license-url]: https://github.com/shie-ld/threads/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/shie-ld/work-queue.svg?style=flat-square
+[contributors-url]: https://github.com/shie-ld/work-queue/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/shie-ld/work-queue.svg?style=flat-square
+[forks-url]: https://github.com/shie-ld/work-queue/network/members
+[stars-shield]: https://img.shields.io/github/stars/shie-ld/work-queue.svg?style=flat-square
+[stars-url]: https://github.com/shie-ld/work-queue/stargazers
+[issues-shield]: https://img.shields.io/github/issues/shie-ld/work-queue.svg?style=flat-square
+[issues-url]: https://github.com/shie-ld/work-queue/issues
+[license-shield]: https://img.shields.io/github/license/shie-ld/work-queue.svg?style=flat-square
+[license-url]: https://github.com/shie-ld/work-queue/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/rudresh-dixit-11a15618a/
 
