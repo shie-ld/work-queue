@@ -19,7 +19,6 @@
 
   <p align="center">
    A solution of the well-known producer-consumer problem using principles of concurrency control and to distribute tasks between threads so they can be processed concurrently keeping critical section in mind.
-
     <br />
     <br />
     <a href="https://github.com/shie-ld/work-queue/issues">Report Bug</a>
@@ -42,8 +41,6 @@
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
 
 
 <!-- ABOUT THE PROJECT -->
